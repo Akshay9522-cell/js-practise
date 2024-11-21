@@ -1,6 +1,15 @@
  
+ // variable 
+
+var name1="akshay Namdev"
+var age=24
+
+var eligibility=true
+
+
+
  function myfunction(){
-    document.getElementById('showdate').innerText= Date();
+    document.getElementById('showdate').innerHTML= Date();
     
  }
 
@@ -33,17 +42,17 @@
 
     //window.alert('just see my functions')
  
-    let carname='Volvo',price= 30000
-    document.getElementById('car').innerHTML=carname
-    document.getElementById('car').innerHTML=price
+   //  let carname='Volvo',price= 30000
+   //  document.getElementById('car').innerHTML=carname
+   //  document.getElementById('car').innerHTML=price
 
-    let x
-    x=  "volvo"
-    x=30  
-    console.log(x)
+   //  let x
+   //  x=  "volvo"
+   //  x=30  
+   //  console.log(x)
 
-    let y= "volvo" + 20+20
-    console.log(y)
+   //  let y= "volvo" + 20+20
+   //  console.log(y)
 
 
 
@@ -73,4 +82,6 @@
 // }
 //  console.log(cybrome("manu sharma","P39","Mern Stack "))
 //  console.log(cybrome("Ayush","P39","java developer") )
+
+
 
