@@ -3,30 +3,37 @@
 
 
 
-  const mybtn=document.querySelector('#mybtn')
+//   const mybtn=document.querySelector('#mybtn')
 
-mybtn.addEventListener('click',()=>{
+// mybtn.addEventListener('click',()=>{
 
-      const myname=document.getElementById('name').value
-  const myemail=document.getElementById('email').value
-  const mypsw=document.getElementById('psw').value
-  const myconfirm=document.getElementById('confirmPsw').value
+//       const myname=document.getElementById('name').value
+//   const myemail=document.getElementById('email').value
+//   const mypsw=document.getElementById('psw').value
+//   const myconfirm=document.getElementById('confirmPsw').value
 
-  if(  typeof myname ==='string' || myemail==='string' || mypsw==='string')
+//   if(  typeof myname ==='string' || myemail==='string' || mypsw==='string')
 
 
-    if( mypsw===myconfirm){
-        return alert( " invalid ")
-    }
+//     if( mypsw===myconfirm){
+//         return alert( " invalid ")
+//     }
 
 
 
    
   
-    else{
-        alert("submitted")
-    }
+//     else{
+//         alert("submitted")
+//     }
 
 
-})
+// })
 
+
+// const btn=document.getElementById('game')
+
+// btn.addEventListener('click',()=>{
+//    window.location="https://www.google.com"
+//    win.focus()
+// })
